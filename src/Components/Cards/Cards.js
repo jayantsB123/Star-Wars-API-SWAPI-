@@ -66,7 +66,7 @@ const Button = styled.button`
 `;
 
 
-function Buttons({ planet }) {
+function Cards({ planet }) {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -80,4 +80,4 @@ function Buttons({ planet }) {
   );
 }
 
-export default Buttons;
+export default Cards;
